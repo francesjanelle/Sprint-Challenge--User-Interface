@@ -277,3 +277,53 @@ footer nav a {
     padding: 20px
 }
 
+.THalf {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: start;
+}
+.THalf img {
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+.THalf button {
+    margin: 10px;
+}
+
+.BHalf {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: black dashed 1px;
+    text-align: start;
+
+}
+
+.BHalf img {
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+.Strategy {
+    border-bottom: black dashed 1px;
+    margin-right: 5px;
+}
+
+.hww {
+    border-bottom: black dashed 1px;
+    margin-left: 5px;
+}
+
+.BHalf button {
+    margin: 10px;
+    border-width: 3px black solid;
+    background-color: white;
+}
+
+.lwt {
+    margin: 15px;
+    text-align: start;
+}
