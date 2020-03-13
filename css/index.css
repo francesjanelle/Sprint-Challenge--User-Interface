@@ -110,8 +110,17 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: black;
 }
-
+.box1 {
+    background: blue;
+}
+.box2 {
+    background: brown;
+}
+.box3 {
+    background: cornflowerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
