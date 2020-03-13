@@ -76,10 +76,11 @@ p {
     display: flex;
     justify-content: space-around;
 }
-h3{
+h3 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-style: bold;
 }
 
 .top-content {
@@ -101,9 +102,6 @@ h3{
     display: flex;
     justify-content: flex-start;
 }
-    
-
-
 
 .middle-content {
     margin-bottom: 20px;
@@ -272,9 +270,11 @@ footer nav a {
 
 /* About.css starts belows */
 
+
 .ABuildings {
-    text-align: center;
-    padding: 20px
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .THalf {
@@ -290,6 +290,9 @@ footer nav a {
 }
 .THalf button {
     margin: 10px;
+    background-color: white;
+    border: black 2px solid;
+    padding: 5px;
 }
 
 .BHalf {
@@ -319,11 +322,26 @@ footer nav a {
 
 .BHalf button {
     margin: 10px;
-    border-width: 3px black solid;
+    border: 2px black solid;
     background-color: white;
+    padding: 5px;
 }
 
 .lwt {
     margin: 15px;
     text-align: start;
+}
+
+.HNavi {
+    display: flex;
+    justify-content: center;
+}
+
+.About {
+    text-align: start;
+}
+
+nav a {
+    display: flex;
+
 }
