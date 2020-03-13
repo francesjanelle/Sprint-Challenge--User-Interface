@@ -71,6 +71,17 @@ p {
     margin: 0 auto;
 }
 
+.HNavi nav {
+    padding-left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,8 +93,17 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin: 1%;  
 }
+
+.LambdaLogo {
+    display: flex;
+    justify-content: flex-start;
+}
+    
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -113,13 +133,109 @@ p {
     border: black;
 }
 .box1 {
-    background: blue;
+    background:#108888;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .box2 {
-    background: brown;
+    background: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .box3 {
-    background: cornflowerblue;
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box4 {
+    background:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box5 {
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box6 {
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box7 {
+    background: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box8 {
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box9 {
+    background: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.box10 {
+    background: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .bottom-content {
     display: flex;
@@ -152,4 +268,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About.css starts belows */
+
+.ABuildings {
+    text-align: center;
+    padding: 20px
 }
