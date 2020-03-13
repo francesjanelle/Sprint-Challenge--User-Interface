@@ -70,12 +70,8 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+    
 
-.HNavi nav {
-    padding-left: 50%;
-    display: flex;
-    justify-content: space-around;
-}
 h3 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -98,9 +94,16 @@ h3 {
     margin: 1%;  
 }
 
-.LambdaLogo {
+header{
     display: flex;
     justify-content: flex-start;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.LambdaLogo {
+    padding: top 20px ;
+
 }
 
 .middle-content {
@@ -332,10 +335,8 @@ footer nav a {
     text-align: start;
 }
 
-.HNavi {
-    display: flex;
-    justify-content: center;
-}
+
+
 
 .About {
     text-align: start;
@@ -345,3 +346,12 @@ nav a {
     display: flex;
 
 }
+
+.LambdaLogo img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
